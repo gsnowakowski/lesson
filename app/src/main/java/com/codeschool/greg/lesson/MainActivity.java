@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView)this.findViewById(R.id.text_view_title);
         textView.setText(R.string.products_title);
 
-        ArrayList<String> candy_list = new ArrayList<String>();
+        final ArrayList<String> candy_list = new ArrayList<String>();
 
         candy_list.add("Tropical Wave");
         candy_list.add("Berry Bouncer");
